@@ -21,7 +21,7 @@ namespace ALDSWeek1Console
             input = Console.ReadLine();
             num2 = Convert.ToInt32(input);
 
-            Console.WriteLine("{0} to the power of {1} is {2}", num1, num2, Power(num1, num2));
+            Console.WriteLine("{0} to the power of {1} is {2}.", num1, num2, Power(num1, num2));
             Console.ReadKey();
         }
 
